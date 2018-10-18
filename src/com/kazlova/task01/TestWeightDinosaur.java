@@ -1,26 +1,25 @@
 package com.kazlova.task01;
-//Масса динозавра задаётся в килограммах. Разработайте программу, которая
-//вычисляет, сколько это миллиграмм, грамм и тонн.
+//ГЊГ Г±Г±Г  Г¤ГЁГ­Г®Г§Г ГўГ°Г  Г§Г Г¤Г ВёГІГ±Гї Гў ГЄГЁГ«Г®ГЈГ°Г Г¬Г¬Г Гµ. ГђГ Г§Г°Г ГЎГ®ГІГ Г©ГІГҐ ГЇГ°Г®ГЈГ°Г Г¬Г¬Гі, ГЄГ®ГІГ®Г°Г Гї
+//ГўГ»Г·ГЁГ±Г«ГїГҐГІ, Г±ГЄГ®Г«ГјГЄГ® ГЅГІГ® Г¬ГЁГ«Г«ГЁГЈГ°Г Г¬Г¬, ГЈГ°Г Г¬Г¬ ГЁ ГІГ®Г­Г­.
 public class TestWeightDinosaur {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ConsoleOutput output = new ConsoleOutput();
-		output.printString("Please input dinosaur weight in kilogram and press <Enter>:");
+	ConsoleOutput output = new ConsoleOutput();
+	output.printString("Please input dinosaur weight in kilogram and press <Enter>:");
 		
-		ConsoleInput input = new ConsoleInput();
-		double weightKg=(input.readDouble());
+	ConsoleInput input = new ConsoleInput();
+	double weightKg=(input.readDouble());
 		
-		double weightG = LogicWeightDinosaur .calcWeightG(weightKg);
-	    double weightMg = LogicWeightDinosaur .calcWeightMg(weightKg); 
-	    double weightT = LogicWeightDinosaur .calcWeightT(weightKg);
+	double weightG = LogicWeightDinosaur .calcWeightG(weightKg);
+	double weightMg = LogicWeightDinosaur .calcWeightMg(weightKg); 
+        double weightT = LogicWeightDinosaur .calcWeightT(weightKg);
 	    
-	
-	    output.printString("Dinosaur weight in kilograms: " + weightKg + " kg");
-	    output.printString("Dinosaur weight in grams: " + weightG + " g");
-	    output.printString("Dinosaur weight in milligrams: " + weightMg + " mg");
-	    output.printString("Dinosaur weight in tons: " + weightT + " t");
+	output.printString("Dinosaur weight in kilograms: " + weightKg + " kg");
+        output.printString("Dinosaur weight in grams: " + weightG + " g");
+	output.printString("Dinosaur weight in milligrams: " + weightMg + " mg");
+	output.printString("Dinosaur weight in tons: " + weightT + " t");
 	
 	}
 
