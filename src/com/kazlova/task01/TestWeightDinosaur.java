@@ -10,7 +10,7 @@ public class TestWeightDinosaur {
 	output.printString("Please input dinosaur weight in kilogram and press <Enter>:");
 		
 	ConsoleInput input = new ConsoleInput();
-	double weightKg=(input.readDouble());
+	double weightKg = (input.readDouble());
 		
 	double weightG = LogicWeightDinosaur .calcWeightG(weightKg);
 	double weightMg = LogicWeightDinosaur .calcWeightMg(weightKg); 
