@@ -19,7 +19,7 @@ public class TestWeightDinosaur {
 	output.printString("Dinosaur weight in kilograms: " + weightKg + " kg");
         output.printString("Dinosaur weight in grams: " + weightG + " g");
 	output.printString("Dinosaur weight in milligrams: " + weightMg + " mg");
-	output.printString("Dinosaur weight in tons: " + weightT + " t");
+	output.printString("Dinosaur weight in tons: " + weightT + " t")
 	
 	}
 
